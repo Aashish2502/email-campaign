@@ -1,5 +1,19 @@
 # **Email Campaign Optimization**
 
+## Table of Contents
+- [User Activity](#user-activity)
+- [Optimization of Email Campaign](#optimization-of-email-campaign)
+    - [Timing Optimization](#timing-optimization)
+    - [Geographic Targeting](#geographic-targeting)
+    - [Content Refinement](#content-refinement)
+- [Observations](#observations)
+- [Conclusions](#conclusions)
+- [Testing of the hypothesis](#testing-of-the-hypothesis)
+
+
+
+
+
 The marketing team of an e-commerce site has launched an email campaign. This site has the email addresses of all users who created an account in the past.
 They have chosen a random sample of users and emailed them. The email informs the user about a new feature implemented on the site. From the marketing team's perspective, success is if the user clicks on the link inside of the email. This link takes the user to the company site.
 
@@ -83,9 +97,12 @@ It is evident that the emails that are `personalized` and `short`, have higher r
 
 From the observations dereived from the dataset, it is evident that:
 
-To perform the campaign successfully, it is advised that the emails are to be sent to the users:
+To perform the campaign successfully, it is advised that the emails be sent to the users:
 - who are from the US
 - in the weekdays from Monday to Wednesday
 - in the time interval of 0900-1200 hrs
 - emails must be personalized and short
 
+# **Testing of the Hypothesis**
+
+To define the success rate of the conclusions made earlier, it is advised to perform A/B testing to give understand the user activity in muxh more depth.
