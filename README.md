@@ -9,6 +9,9 @@
 - [Observations](#observations)
 - [Conclusions](#conclusions)
 - [Testing of the hypothesis](#testing-of-the-hypothesis)
+    - [Hypothesis](#hypothesis)
+    - [Test Design](#test-design)
+    - [Success Metrics](#success-metrics)
 
 
 
@@ -105,4 +108,30 @@ To perform the campaign successfully, it is advised that the emails be sent to t
 
 # **Testing of the Hypothesis**
 
-To define the success rate of the conclusions made earlier, it is advised to perform A/B testing to give understand the user activity in muxh more depth.
+To define the success rate of the conclusions made earlier, it is advised to perform multi-variate testing to understand and verify the hypothesis.
+
+
+### Hypothesis:
+- **Null Hypothesis (H<sub>0</sub>)**: There is no significant difference in the engagement metrics between the control group and the test group.
+- **Alternate Hyothesis (H<sub>1</sub>)**: Emails sent under the advised conditions (Group B) will have higher open rates, click-through rates, and conversions compared to the control group (Group A).
+
+
+### Test Design:
+
+We can design the multi-variate test as the following: 
+
+| Variant | Personalization and short | Time | Day |
+| --- | --- | --- | --- |
+| A | No | Any other time than 0900-1200 hrs | any other day than Monday - Wednesday|
+| B1 | No | 0900-1200 hrs | Monday-Wednesday |
+| B2 | Yes | Any other time than 0900-1200 hrs | Monday-Wednesday |
+| B3 | Yes | 0900-1200 | Monday-Wednesday |
+
+
+### Success Metrics:
+The metrics that can be used to define the success rate are:
+- Open Rate
+- Click Through Rate (CTR)
+- Conversion rate
+
+Using these metrics we can evaluate the variants and modify out GTM strategies and enhance our campaign.
